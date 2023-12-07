@@ -1,5 +1,5 @@
 {
-  "name": "WRTC",
+  "name": "WebRTC-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wuwei9536/WRTC.git"
+    "url": "git+https://github.com/Baozhen-Yin/webrtc-demo"
   },
   "keywords": [],
-  "author": "WuWei",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "express": "^4.17.1",
