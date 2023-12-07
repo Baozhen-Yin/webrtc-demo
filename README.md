@@ -1,9 +1,5 @@
 # WRTC - Video Chat
 
-![License: CC-NC](https://img.shields.io/badge/License-CCNC-blue.svg)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
-
-# https://rtc.wuwei.tech
 
 基于 WebRTC 的视频聊天平台，使用自建的 STUN / TURN 服务器。
 
