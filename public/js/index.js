@@ -351,6 +351,7 @@ function bootstrap() {
   const videoConstraint = isMobile()
     ? { width: 480, height: 480 }
     : { width: 1280, height: 720 };
+    
   // 新建WRTC实例  封装了WebRTC联通过程
   window.WRTCEntity = new WRTC({
     socket: webSocket,
