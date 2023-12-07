@@ -18,16 +18,6 @@
 - 可安装的(PWA)
 - 白板
 
-## 快速开始
-
-- 您将需要安装 Node.js
-- 克隆此仓库
-
-```
-git clone https://github.com/Wuwei9536/WRTC.git
-cd WRTC
-```
-
 #### 安装依赖
 
 ```
