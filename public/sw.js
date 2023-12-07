@@ -1,5 +1,5 @@
 // Files to cache
-var cacheName = "wrtc-v6";
+var cacheName = "webrtc-v6";
 var cacheFiles = [
   "/lib/adapter.js",
   "/lib/autolink.js",
@@ -13,9 +13,9 @@ var cacheFiles = [
   "/images/logo.png",
   "/css/snackbar.min.css",
   "/js/call.js",
-  "/js/common.js",
-  "/js/rtc.js",
-  "/js/WRTC.js",
+  "/js/utils.js",
+  "/js/index.js",
+  "/js/WebRTC.js",
 ];
 
 // Installing Service Worker

@@ -49,7 +49,7 @@ npm start
 
 ## 注意
 
-你需要在 rtc.js 中使用你自己的 STUN/TURN 服务器信息
+你需要在 index.js 中使用你自己的 STUN/TURN 服务器信息
 
 ## 贡献
 

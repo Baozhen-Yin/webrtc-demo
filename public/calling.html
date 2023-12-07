@@ -60,14 +60,14 @@
       const room = document.getElementById("room").value;
       const password = document.getElementById("password").value;
       if (password) {
-        sessionStorage.setItem("wrtc", password);
+        sessionStorage.setItem("webrtc", password);
         window.location.href = "/authrtc/" + room;
       } else {
         window.location.href = "/rtc/" + room;
       }
     }
   </script>
-  <script src="/js/common.js"></script>
+  <script src="/js/utils.js"></script>
   <script src="/js/call.js"></script>
   <script>
     if ("serviceWorker" in navigator) {

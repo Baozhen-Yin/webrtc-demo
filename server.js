@@ -12,15 +12,15 @@ const public = path.join(__dirname, "/public");
 app.use(express.static(public));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(public, "call.html"));
+  res.sendFile(path.join(public, "calling.html"));
 });
 
 app.get("/rtc/*", (req, res) => {
-  res.sendFile(path.join(public, "rtc.html"));
+  res.sendFile(path.join(public, "webrtc.html"));
 });
 
 app.get("/authrtc/*", (req, res) => {
-  res.sendFile(path.join(public, "rtc.html"));
+  res.sendFile(path.join(public, "webrtc.html"));
 });
 
 function logIt(msg) {

@@ -51,11 +51,11 @@ function suggestPCChrome() {
 
 // 要求输入密码
 function requestPassword() {
-  const sessionPassword = sessionStorage.getItem("wrtc");
+  const sessionPassword = sessionStorage.getItem("webrtc");
   if (!sessionPassword) {
     const promptPassword = prompt("请输入密码", "");
     if (promptPassword != null && promptPassword != "") {
-      sessionStorage.setItem("wrtc", promptPassword);
+      sessionStorage.setItem("webrtc", promptPassword);
       password = promptPassword;
     }
   } else {
